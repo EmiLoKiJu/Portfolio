@@ -1,5 +1,12 @@
 body {
-  background-color: black;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.section1 {
+  height: 700px;
+  background-color: #1c1a19;
+  margin: 0px 0px 0px 0px;
   display: flex;
   flex-direction: column;
   background-image: url(illustration-header-mobile.png);
@@ -8,8 +15,9 @@ body {
 }
 
 .header {
+  border: none;
   height: 50px;
-  margin-top: 0%;
+  margin: 0px 0px 0px 0px;
   padding-left: 5%;
   padding-right: 5%;
   order: -2;
@@ -73,7 +81,7 @@ body {
 
 li {
   list-style-type: none;
-  background-color: black;
+  background-color: #1c1a19;
 }
 
 .mediaicon:hover {
@@ -97,8 +105,8 @@ li {
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    height: 500px;
+  .section1 {
+    height: 800px;
     align-items: center;
     padding-top: 0%;
     background-image: url(illustration-header.png);
@@ -107,8 +115,10 @@ li {
   }
 
   .header {
-    width: 95%;
+    width: 99%;
     height: 60px;
+    padding-left: 100px;
+    padding-right: 50px;
   }
 
   .notheader {
@@ -136,8 +146,8 @@ li {
 }
 
 @media screen and (min-width: 1024px) {
-  body {
-    height: 500px;
+  .section1 {
+    height: 800px;
     align-items: center;
     padding-top: 0%;
     background-image: url(illustration-header.png);
