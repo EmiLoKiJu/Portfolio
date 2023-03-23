@@ -57,36 +57,20 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+**[Portfolio]** is a web site with a RWD.
 
-**[your_project__name]** is a...
-
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="VSC"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> Any browser with HMTL5 and CSS3
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://google.com/">Google</a></li>
   </ul>
 </details>
 
@@ -94,19 +78,14 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+- **[RWD]**
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://google.com)
 
@@ -116,83 +95,37 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+Open the website and feel free to navegate.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
+A browser with HMTL5 and CSS3
+Install Google Chrome or any browser that supports the above.
 
-```sh
- gem install rails
-```
- -->
+
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+You don't need to setup this project
 
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+You don't need to install this project
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
+To run the project, execute the index.html
 --->
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+You don't need to run tests
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+You don't need to deploy this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,19 +133,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Gabriel Rozas**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/EmiLoKiJu)
+- Twitter: [@twitterhandle](https://twitter.com/GabrielRozas12)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/grozas/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,11 +145,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[More info]**
+- [ ] **[More flexibility]**
+- [ ] **[Javascript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -242,9 +165,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, contact me for any business project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,9 +173,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank microverse.org for giving me this oportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
