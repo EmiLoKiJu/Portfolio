@@ -134,9 +134,9 @@ You don't need to deploy this project
 
 👤 **Gabriel Rozas**
 
-- GitHub: [@githubhandle](https://github.com/EmiLoKiJu)
-- Twitter: [@twitterhandle](https://twitter.com/GabrielRozas12)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/grozas/)
+- GitHub: [@EmiLoKiJu](https://github.com/EmiLoKiJu)
+- Twitter: [@GabrielRozas12](https://twitter.com/GabrielRozas12)
+- LinkedIn: [grozas](https://www.linkedin.com/in/grozas/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,6 +182,6 @@ I would like to thank microverse.org for giving me this oportunity.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
