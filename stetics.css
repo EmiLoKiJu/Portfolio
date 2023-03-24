@@ -105,7 +105,7 @@ li {
 }
 
 .header1p2 {
-  color: #1C1A19;
+  color: #1c1a19;
   font-family: Crete Round, sans-serif;
   font-size: 56px;
   font-weight: 400;
@@ -128,8 +128,25 @@ li {
   width: 87.2%;
 }
 
+.header2p2 {
+  color: #091e42;
+  font-family: Crete Round;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  margin-left: 6.9%;
+}
 
-
+.pdescription {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-left: 6.9%;
+  margin-right: 6.9%;
+}
 
 @media screen and (min-width: 768px) {
   .section1 {
