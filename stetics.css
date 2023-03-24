@@ -35,8 +35,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 87.2%;
-  margin-left: 6.9%;
-  margin-right: 6.9%;
+  margin-left: 6.7%;
+  margin-right: 6.7%;
 }
 
 .primarytext {
@@ -73,8 +73,8 @@ body {
 
 .socialmedia {
   width: 87.2%;
-  margin-left: 6.9%;
-  margin-right: 6.9%;
+  margin-left: 6.7%;
+  margin-right: 6.7%;
   padding-left: 0%;
   display: flex;
 }
@@ -112,26 +112,26 @@ body {
   line-height: 64px;
   letter-spacing: 0.37px;
   text-align: left;
-  margin-left: 6.9%;
+  margin-left: 6.7%;
 }
 
 .line {
   text-align: left;
-  margin-left: 6.9%;
+  margin-left: 6.7%;
   width: 87.2%;
 }
 
 .bigimage {
   margin-top: 80px;
   text-align: left;
-  margin-left: 6.9%;
+  margin-left: 6.7%;
   width: 87.2%;
 }
 
 .grid1 {
   display: grid;
-  margin-left: 6.9%;
-  margin-right: 6.9%;
+  margin-left: 6.7%;
+  margin-right: 6.7%;
   grid-template-columns: auto;
   grid-template-rows: 384px 384px 384px 384px;
   row-gap: 12px;
@@ -262,6 +262,52 @@ body {
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+
+.section3 {
+  height: 1800px;
+  background-color: #1c1a19;
+  margin: 120px 0% 0% 0%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutmeh1 {
+  color: #ff6b00;
+  letter-spacing: 0.17px;
+  font-family: Crete Round;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 88px;
+  text-align: left;
+  padding: 0%;
+  margin: 120px 6.7% 24px 6.7%;
+  width: 327px;
+  height: 79px;
+}
+
+.aboutmep1 {
+  color: #f4f5f7;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin: 0.01px 6.7% 24px 6.7%;
+}
+
+.getmyresume {
+  display: flex;
+  background-color: #ff6b00;
+  color: white;
+  width: 156px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  padding: 12px 12px 12px 12px;
+  margin-left: 6.7%;
 }
 
 @media screen and (min-width: 768px) {
