@@ -1,12 +1,12 @@
 body {
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .section1 {
   height: 700px;
   background-color: #1c1a19;
-  margin: 0px 0px 0px 0px;
+  margin: 0px;
   display: flex;
   flex-direction: column;
   background-image: url(illustration-header-mobile.png);
@@ -17,7 +17,7 @@ body {
 .header {
   border: none;
   height: 50px;
-  margin: 0px 0px 0px 0px;
+  margin: none none none none;
   padding-left: 5%;
   padding-right: 5%;
   order: -2;
@@ -149,7 +149,7 @@ li {
   .section1 {
     height: 800px;
     align-items: center;
-    padding-top: 0%;
+    padding-top: none;
     background-image: url(illustration-header.png);
     background-repeat: no-repeat;
     background-position: right 50px;
