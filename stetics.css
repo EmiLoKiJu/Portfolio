@@ -79,7 +79,7 @@ body {
   display: flex;
 }
 
-li {
+.mediaiconcontainer {
   list-style-type: none;
   background-color: #1c1a19;
 }
@@ -162,12 +162,15 @@ li {
 }
 
 .projecticons {
+  list-style-type: none;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0.0001px 0.0001px 0.0001px 0.0001px;
+  padding: 0%;
 }
 
-.projecticons div {
+.projecticons li {
   border: black solid 1px;
   flex: 1;
   font-family: Inter;
@@ -176,7 +179,7 @@ li {
   line-height: 20px;
   text-align: center;
   padding: 9px 12px 9px 12px;
-  margin: 2px 7px 5px 0.01px;
+  margin: 2px 5px 5px 0.01px;
 }
 
 .projecticons div:last-child {
@@ -227,6 +230,7 @@ li {
   margin-left: 5%;
   margin-right: 5%;
 }
+
 
 
 
