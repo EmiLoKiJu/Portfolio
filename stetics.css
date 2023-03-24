@@ -148,6 +148,16 @@ li {
   margin-right: 6.9%;
 }
 
+.projecticons {
+  display: flex;
+  margin-left: 6.9%;
+  margin-right: 6.9%;
+}
+
+.projecticons div {
+  border: black solid 1px;
+}
+
 @media screen and (min-width: 768px) {
   .section1 {
     height: 800px;
