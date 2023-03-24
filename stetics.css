@@ -132,7 +132,6 @@ body {
   display: grid;
   margin-left: 6.9%;
   margin-right: 6.9%;
-  border: 1px solid red;
   grid-template-columns: auto;
   grid-template-rows: 384px 384px 384px 384px;
   row-gap: 12px;
@@ -164,15 +163,12 @@ body {
 .projecticons {
   list-style-type: none;
   display: flex;
-  /* justify-content: space-between; */
-  /* flex-wrap: wrap; */
   margin: 0.0001px 0.0001px 0.0001px 0.0001px;
   padding: 0%;
 }
 
 .projecticons li {
   border: black solid 1px;
-  /* flex: 1; */
   font-family: Inter;
   font-size: 15px;
   font-weight: 500;
@@ -214,9 +210,10 @@ body {
   font-weight: 400;
   line-height: 44px;
   text-align: left;
+  margin-bottom: 0%;
+  margin-top: 0%;
   margin-left: 5%;
   margin-right: 5%;
-
 }
 
 .descriptionap {
@@ -229,6 +226,8 @@ body {
   text-align: left;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 0%;
+  margin-top: 12px;
 }
 
 .iconsap {
@@ -237,7 +236,6 @@ body {
   padding: 0%;
   margin-left: 5%;
   margin-right: 5%;
-  /* justify-content: space-between; */
 }
 
 .iconsap li {
@@ -249,10 +247,22 @@ body {
   line-height: 20px;
   text-align: left;
   padding: 9px 12px 9px 12px;
-  margin: 2px 5px 5px 0.01px;
-
+  margin: 0.01px 12px 0.01px 0.01px;
 }
 
+.seeproject2 {
+  display: flex;
+  height: 48px;
+  color: white;
+  background-color: #ff6b00;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
 
 @media screen and (min-width: 768px) {
   .section1 {
