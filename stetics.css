@@ -155,14 +155,24 @@ li {
   justify-content: space-between;
 }
 
+/* .lastelement {
+  margin: 0.01px
+} */
+
 .projecticons div {
   border: black solid 1px;
+  flex: 1;
   font-family: Inter;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
   text-align: center;
   padding: 10px 12px 10px 12px;
+  margin: 0.01px 20px 1px 0.01px;
+}
+
+.projecticons div:last-child {
+  margin: 0.01px;
 }
 
 .seeproject1 {
