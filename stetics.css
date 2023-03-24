@@ -165,6 +165,21 @@ li {
   padding: 10px 12px 10px 12px;
 }
 
+.seeproject1 {
+  background-color: #ff6b00;
+  color: white;
+  width: 100px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  padding: 12px 12px 12px 12px;
+  display: flex;
+  margin-left: 6.9%;
+  margin-top: 12px;
+}
+
 @media screen and (min-width: 768px) {
   .section1 {
     height: 800px;
