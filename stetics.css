@@ -146,7 +146,7 @@ body {
 
 .header2p2 {
   color: #091e42;
-  font-family: Crete Round;
+  font-family: Crete Round, sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
@@ -154,11 +154,55 @@ body {
 }
 
 .pdescription {
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+}
+
+.aboutmyselflist {
+  margin-top: 20px;
+  padding-left: 0%;
+  list-style-type: none;
+}
+
+.aboutmyselflist li {
+  color: white;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: center;  
+  font-family: Inter;
+}
+
+.iconsap {
+  display: flex;
+  list-style-type: none;
+  padding: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.iconsap li {
+  background-color: rgba(255, 255, 255, 0.24);
+  color: white;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  padding: 9px 12px 9px 12px;
+  margin: 0.01px 12px 0.01px 0.01px;
+}
+
+.iconsap li:hover {
+  background-color: lightcoral;
+}
+
+.iconsap li:active {
+  background-color: #ff6b00;
 }
 
 .projecticons {
@@ -170,7 +214,7 @@ body {
 
 .projecticons li {
   border: black solid 1px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
@@ -195,7 +239,7 @@ body {
   background-color: #ff6b00;
   color: white;
   width: 100px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -223,7 +267,7 @@ body {
   height: 88px;
   color: white;
   padding-top: 72px;
-  font-family: Crete Round;
+  font-family: Crete Round, sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
@@ -237,11 +281,10 @@ body {
 .descriptionap {
   height: 96px;
   color: white;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   margin-left: 5%;
   margin-right: 5%;
@@ -249,40 +292,12 @@ body {
   margin-top: 12px;
 }
 
-.iconsap {
-  display: flex;
-  list-style-type: none;
-  padding: 0%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.iconsap li {
-  background-color: rgba(255, 255, 255, 0.24);
-  color: white;
-  font-family: Inter;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 20px;
-  text-align: left;
-  padding: 9px 12px 9px 12px;
-  margin: 0.01px 12px 0.01px 0.01px;
-}
-
-.iconsap li:hover {
-  background-color: lightcoral;
-}
-
-.iconsap li:active {
-  background-color: #ff6b00;
-}
-
 .seeproject2 {
   display: flex;
   height: 48px;
   color: white;
   background-color: #ff6b00;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -313,7 +328,7 @@ body {
 .aboutmeh1 {
   color: #ff6b00;
   letter-spacing: 0.17px;
-  font-family: Crete Round;
+  font-family: Crete Round, sans-serif;
   font-size: 72px;
   font-weight: 400;
   line-height: 88px;
@@ -327,7 +342,7 @@ body {
 .aboutmep1 {
   height: 144px;
   color: #f4f5f7;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -340,7 +355,7 @@ body {
   background-color: #ff6b00;
   color: white;
   width: 130px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 17px;
   font-weight: 700;
   line-height: 24px;
@@ -369,7 +384,7 @@ body {
   display: flex;
   flex-direction: row;
   color: white;
-  font-family: InaiMathi;
+  font-family: InaiMathi, sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -394,22 +409,6 @@ body {
 
 .littlecont p {
   margin: 0%;
-}
-
-.aboutmyselflist {
-  margin-top: 20px;
-  padding-left: 0%;
-  list-style-type: none;
-}
-
-.aboutmyselflist li {
-  color: white;
-  font-family: Inter;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 43px;
-  text-align: center;  
-  font-family: Inter;
 }
 
 @media screen and (min-width: 768px) {
