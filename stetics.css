@@ -1,12 +1,12 @@
 body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0.0001px;
+  margin: 0.0001px;
 }
 
 .section1 {
   height: 700px;
   background-color: #1c1a19;
-  margin: 0px;
+  margin: 0.0001px;
   display: flex;
   flex-direction: column;
   background-image: url(illustration-header-mobile.png);
