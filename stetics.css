@@ -164,15 +164,15 @@ body {
 .projecticons {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
   margin: 0.0001px 0.0001px 0.0001px 0.0001px;
   padding: 0%;
 }
 
 .projecticons li {
   border: black solid 1px;
-  flex: 1;
+  /* flex: 1; */
   font-family: Inter;
   font-size: 15px;
   font-weight: 500;
@@ -231,7 +231,27 @@ body {
   margin-right: 5%;
 }
 
+.iconsap {
+  display: flex;
+  list-style-type: none;
+  padding: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* justify-content: space-between; */
+}
 
+.iconsap li {
+  background-color: rgba(255, 255, 255, 0.24);
+  color: white;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  padding: 9px 12px 9px 12px;
+  margin: 2px 5px 5px 0.01px;
+
+}
 
 
 @media screen and (min-width: 768px) {
