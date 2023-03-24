@@ -322,6 +322,54 @@ body {
   text-align: left;
   margin-left: 6.7%;
   width: 87.2%;
+  margin-bottom: 137px;
+}
+
+.littlecont {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: InaiMathi;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  margin-left: -10%;
+  align-self: center;
+}
+
+.normalimg {
+  width: 14px;
+  height: 14px;
+  margin-right: 20px;
+  align-self: center;
+}
+
+.specialimg {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.littlecont p {
+  margin: 0%;
+}
+
+.aboutmyselflist {
+  margin-top: 20px;
+  padding-left: 0%;
+  list-style-type: none;
+}
+
+.aboutmyselflist li {
+  color: white;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: center;  
+  font-family: Inter;
 }
 
 @media screen and (min-width: 768px) {
