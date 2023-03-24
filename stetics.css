@@ -307,7 +307,7 @@ body {
   display: flex;
   background-color: #ff6b00;
   color: white;
-  width: 156px;
+  width: 130px;
   font-family: Inter;
   font-size: 17px;
   font-weight: 700;
@@ -334,7 +334,7 @@ body {
   font-weight: 700;
   line-height: 44px;
   text-align: left;
-  margin-left: -10%;
+  margin-left: -7%;
   align-self: center;
 }
 
