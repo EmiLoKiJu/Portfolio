@@ -152,7 +152,6 @@ li {
   font-weight: 400;
   line-height: 44px;
   text-align: left;
-  margin-left: 6.9%;
 }
 
 .pdescription {
@@ -161,14 +160,10 @@ li {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  margin-left: 6.9%;
-  margin-right: 6.9%;
 }
 
 .projecticons {
   display: flex;
-  margin-left: 6.9%;
-  margin-right: 6.9%;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -200,27 +195,30 @@ li {
   text-align: center;
   padding: 12px 12px 12px 12px;
   display: flex;
-  margin-left: 6.9%;
   margin-top: 12px;
 }
 
-/* .itemrow1col1to3 {
+.anotherproject {
+  display: flex;
+  flex-direction: column;
+  background-image: url(ProjectBackground.png);
+}
+
+.headerap {
   color: white;
-  grid-column: 1 / span 3;
   padding-top: 72px;
   font-family: Crete Round;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
   text-align: left;
-  padding-left: 11.3%;
-  padding-right: 11.3%;
+  margin-left: 6.9%;
+  margin-right: 6.9%;
 
 }
 
-.itemrow2col1to3 {
+.descriptionap {
   color: white;
-  grid-column: 1 / span 3;
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
@@ -229,12 +227,7 @@ li {
   text-align: left;
   padding-left: 11.3%;
   padding-right: 11.3%;
-
 }
-
-.itemrow4col1to3 {
-  grid-column: 1 / span 3;
-} */
 
 
 
