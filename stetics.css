@@ -177,7 +177,6 @@ body {
 }
 
 .iconsap {
-  display: flex;
   list-style-type: none;
   padding: 0%;
   margin-left: 5%;
@@ -194,6 +193,7 @@ body {
   text-align: left;
   padding: 9px 12px 9px 12px;
   margin: 0.01px 12px 0.01px 0.01px;
+  float: left;
 }
 
 .projecticons li {
@@ -390,6 +390,7 @@ body {
   text-align: left;
   margin-left: -7%;
   align-self: center;
+  /* justify-content: center; */
 }
 
 .normalimg {
