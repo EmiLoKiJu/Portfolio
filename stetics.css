@@ -1,6 +1,7 @@
 body {
   padding: 0.0001px;
   margin: 0.0001px;
+
 }
 
 .section1 {
@@ -409,6 +410,14 @@ body {
 
 .littlecont p {
   margin: 0%;
+}
+
+.contactsection div h1 {
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
