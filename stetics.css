@@ -421,6 +421,7 @@ body {
   font-weight: 700;
   line-height: 44px;
   text-align: center;
+  height: 264px;
   width: 87.2%;
   margin: 10.209% 6.7%;
 }
@@ -469,18 +470,6 @@ body {
   padding-left: 5%;
 }
 
-.formlu li:last-child input {
-  color: #3C3A39;
-  width: 87.2%;
-  margin: 0% 6.7%;
-  font-family: Inter, sans-serif;
-  font-size: 15px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-}
-
 .submitform {
   align-self: center;
   margin-top: 24px;
@@ -496,6 +485,7 @@ body {
   font-weight: 700;
   line-height: 24px;
   text-align: center;
+  margin-bottom: 64%;
 }
 
 .socialmedia2 {
@@ -506,7 +496,26 @@ body {
 }
 
 .mediaiconcontainer2 {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.mediaiconcontainer2:hover {
+  background-color: grey;
+}
 
+.mediaiconcontainer2:active {
+  background-color: #1c1a19;
+}
+
+.linespanfinal {
+  background-color: #dbd8d7;
+  height: 2px;
+  width: 100%;
+  margin-bottom: 5%;
 }
 
 @media screen and (min-width: 768px) {
