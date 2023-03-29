@@ -442,7 +442,8 @@ body {
   list-style-type: none;
 }
 
-#name, #mail {
+#name,
+#mail {
   font-family: Inter, sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -455,15 +456,15 @@ body {
   margin-top: 6%;
 }
 
-.formlu li:nth-last-child(2){
+.formlu li:nth-last-child(2) {
   margin-left: 6.7%;
   margin-right: 6.7%;
 }
 
-.formlu li:nth-last-child(2) textarea{
+.formlu li:nth-last-child(2) textarea {
   margin-top: 2%;
   background-color: #fbf8f7;
-  border:none;
+  border: none;
   display: flex;
   width: 100%;
   height: 114px;
@@ -502,7 +503,7 @@ body {
   align-items: center;
   justify-content: center;
 }
- 
+
 .mediaiconcontainer2:hover {
   background-color: grey;
 }
