@@ -190,15 +190,15 @@
             <form action="https://formspree.io/f/xzbqjzwo" method="post">
                 <ul class="formlu">
                   <li class="nameinputli">
-                    <input type="text" id="name" name="user_name" placeholder="Full name" />
+                    <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required/>
                   </li>
                   <span class="linespan"></span>
                   <li class="emailinputli">
-                    <input type="email" id="mail" name="user_email" placeholder="Email address" />
+                    <input type="email" id="mail" name="user_email" placeholder="Email address" required/>
                   </li>
                   <span class="linespan"></span>
                   <li>
-                    <textarea id="msg" name="user_message" placeholder="Write me something..."></textarea>
+                    <textarea id="msg" name="user_message" placeholder="Write me something..." maxlength="500" required></textarea>
                   </li>
                   <li class="submitform">
                     <button type="submit">Get in touch</button>
