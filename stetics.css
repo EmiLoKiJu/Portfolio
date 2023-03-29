@@ -10,7 +10,7 @@ body {
   margin: 0.0001px;
   display: flex;
   flex-direction: column;
-  background-image: url(illustration-header-mobile.png);
+  background-image: url(img/illustration-header-mobile.png);
   background-repeat: no-repeat;
   background-position: 100% 250px;
 }
@@ -260,7 +260,7 @@ body {
 .anotherproject {
   display: flex;
   flex-direction: column;
-  background-image: url(ProjectBackground.png);
+  background-image: url(img/ProjectBackground.png);
 }
 
 .headerap {
@@ -320,7 +320,7 @@ body {
   margin: 120px 0% 0% 0%;
   display: flex;
   flex-direction: column;
-  background-image: url(Group.png);
+  background-image: url(img/Group.png);
   background-repeat: no-repeat;
   background-position: 100% 380px;
 }
@@ -425,7 +425,7 @@ body {
     height: 800px;
     align-items: center;
     padding-top: 0%;
-    background-image: url(illustration-header.png);
+    background-image: url(img/illustration-header.png);
     background-repeat: no-repeat;
     background-position: 345px 50px;
   }
@@ -466,7 +466,7 @@ body {
     height: 800px;
     align-items: center;
     padding-top: none;
-    background-image: url(illustration-header.png);
+    background-image: url(img/illustration-header.png);
     background-repeat: no-repeat;
     background-position: right 50px;
   }
