@@ -1,5 +1,30 @@
 <a name="readme-top"></a>
 
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
 <div align="center">
 
   <h3><b>README</b></h3>
@@ -112,12 +137,6 @@ You don't need to deploy this project
 - GitHub: [@EmiLoKiJu](https://github.com/EmiLoKiJu)
 - Twitter: [@GabrielRozas12](https://twitter.com/GabrielRozas12)
 - LinkedIn: [grozas](https://www.linkedin.com/in/grozas/)
-
-👤 **Nylbert Victor**
-
-- GitHub: [@redmarverick](https://github.com/redmarverick)
-- Twitter: [@MarverickRed]("https://twitter.com/MarverickRed)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nylbert-victor-397951120/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
