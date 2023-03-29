@@ -518,6 +518,15 @@ body {
   margin-bottom: 5%;
 }
 
+.linespanfinal2 {
+  background-color: #0d151e;
+  height: 5px;
+  width: 33%;
+  margin-bottom: 5%;
+  align-self: center;
+  border-radius: 5px;
+}
+
 @media screen and (min-width: 768px) {
   .section1 {
     height: 800px;
