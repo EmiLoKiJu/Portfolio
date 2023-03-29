@@ -182,6 +182,7 @@
     "has-flag": "^4.0.0",
     "has-unicode": "^2.0.1",
     "has-yarn": "^2.1.0",
+    "hint": "^7.1.6",
     "hosted-git-info": "^6.1.1",
     "html-encoding-sniffer": "^3.0.0",
     "html-tags": "^3.2.0",
@@ -436,8 +437,8 @@
     "specificity": "^0.4.1",
     "ssri": "^10.0.1",
     "statuses": "^2.0.1",
-    "string_decoder": "^1.3.0",
     "string-width": "^4.2.3",
+    "string_decoder": "^1.3.0",
     "strip-ansi": "^6.0.1",
     "strip-final-newline": "^2.0.0",
     "strip-indent": "^3.0.0",
@@ -445,7 +446,11 @@
     "strnum": "^1.0.5",
     "strtok3": "^6.3.0",
     "style-search": "^0.1.0",
+    "stylelint": "^13.13.1",
     "stylelint-config-recommended": "^4.0.0",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
     "sugarss": "^2.0.0",
     "supports-color": "^7.2.0",
     "supports-preserve-symlinks-flag": "^1.0.0",
@@ -518,13 +523,7 @@
     "yauzl": "^2.10.0",
     "zwitch": "^1.0.5"
   },
-  "devDependencies": {
-    "hint": "^7.1.6",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^21.0.0",
-    "stylelint-csstree-validator": "^1.9.0",
-    "stylelint-scss": "^3.21.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
