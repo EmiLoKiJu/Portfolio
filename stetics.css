@@ -575,24 +575,48 @@ body {
   }
 
   .grid1 {
-  row-gap: 20px;
+  row-gap: 24px;
+  column-gap: 24px;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 435px 435px 435;
+  grid-template-rows: auto 435px 435px;
+  margin-left: 10.7%;
+  margin-right: 10.7%;
   }
 
   .mainproject {
     grid-column: 1 / span 3;
   }
 
+  .mainproject section {
+    width: 55%;
+  }
+
   .bigimage {
     margin-top: 0px;
     margin-left: 0%;
-    width: auto;
+    width: 100%;
     object-fit: contain;
+    /* src: url(img/BigImgDesk.png); */
   }
 
   .mainproject {
     flex-direction: row;
+  }
+
+  .p1 {
+    background-image: url(img/projectvisible1.png);
+  }
+
+  .p2, .p5 {
+    background-image: url(img/projecthidden2.png);
+  }
+
+  .p3, .p6 {
+    background-image: url(img/projecthidden3.png);
+  }
+
+  .p4 {
+    background-image: url(img/projecthidden1.png);
   }
 }
 
