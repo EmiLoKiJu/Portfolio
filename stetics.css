@@ -134,7 +134,7 @@ body {
   margin-left: 6.7%;
   margin-right: 6.7%;
   grid-template-columns: auto;
-  grid-template-rows: 384px 384px 384px 384px;
+  grid-template-rows: auto 384px 384px 384px 384px 384px 384px;
   row-gap: 12px;
 }
 
@@ -144,6 +144,13 @@ body {
   margin-top: 0.001px;
 }
 
+.mainproject section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.001px;
+  margin-left: 5%;
+}
+
 .header2p2 {
   color: #091e42;
   font-family: Crete Round, sans-serif;
@@ -151,6 +158,7 @@ body {
   font-weight: 400;
   line-height: 44px;
   text-align: left;
+  margin-bottom: 0%;
 }
 
 .pdescription {
@@ -565,7 +573,30 @@ body {
   .description {
     padding-right: 50%;
   }
+
+  .grid1 {
+  row-gap: 20px;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 435px 435px 435;
+  }
+
+  .mainproject {
+    grid-column: 1 / span 3;
+  }
+
+  .bigimage {
+    margin-top: 0px;
+    margin-left: 0%;
+    width: auto;
+    object-fit: contain;
+  }
+
+  .mainproject {
+    flex-direction: row;
+  }
 }
+
+
 
 @media screen and (min-width: 1024px) {
   .section1 {
