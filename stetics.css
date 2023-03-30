@@ -116,12 +116,6 @@ body {
   margin-left: 6.7%;
 }
 
-.line {
-  text-align: left;
-  margin-left: 6.7%;
-  width: 87.2%;
-}
-
 .bigimage {
   margin-top: 80px;
   text-align: left;
@@ -637,6 +631,68 @@ body {
   .p4 {
     background-image: url(img/projecthidden1.png);
   }
+
+  .anotherproject.p1{
+    flex-direction: column-reverse;
+  }
+
+  .headerap {
+    padding-top: 157px;
+  }
+
+  .iconsap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 55px;
+  }
+
+  .iconsap li {
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+
+  .iconsap li:first-child {
+    width: 45px;
+  }
+
+  .iconsap li:nth-child(2) {
+    width: 69px;
+  }
+
+  .iconsap li:nth-child(3) {
+    width: 36px;
+  }
+
+  .descriptionap {
+    display: none;
+  }
+
+  .bp2 {
+    display: none;
+  }
+
+  .bp3 {
+    display: none;
+  }
+
+  .bp4 {
+    display: none;
+  }
+
+  .bp5 {
+    display: none;
+  }
+
+  .bp6 {
+    display: none;
+  }
+
+  .ph1 {
+    display: none;
+  }
+
+
 }
 
 
@@ -649,5 +705,31 @@ body {
     background-image: url(img/illustration-header.png);
     background-repeat: no-repeat;
     background-position: right 50px;
+  }
+
+  .iconsap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 16px;
+  }
+
+  .descriptionap {
+    display: block;
+    margin-bottom: 5%;
+  }
+
+  .ph1 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1066px) {
+  .descriptionap {
+    margin-bottom: 0%;
+  }
+
+  .headerap {
+    padding-top: 176px;
   }
 }
