@@ -374,11 +374,13 @@ body {
 }
 
 .line2 {
-  margin-top: 209px;
-  text-align: left;
-  margin-left: 6.7%;
+  background-color: #dbd8d7;
+  height: 2px;
   width: 87.2%;
-  margin-bottom: 137px;
+  margin-left: 6.7%;
+  margin-right: 6.7%;
+  margin-bottom: 5%;
+  margin-top: 200px;
 }
 
 .littlecont {
@@ -692,7 +694,31 @@ body {
     display: none;
   }
 
+  .aboutmeh1 {
+    margin-left: 11.2%;
+  }
 
+  .aboutmep1 {
+    max-width: 26.5%;
+    margin-left: 11.2%;
+    height: 260px;
+  }
+
+  .getmyresume {
+    margin-left: 11.2%;
+  }
+
+  .section3 {
+    background-image: url(img/Backgroud2.png);
+    background-position: 422px 100px;
+  }
+
+  .line2 {
+    margin-left: 11.2%;
+    margin-right: 11.2%;
+    width: auto;
+    margin-top: 150px;
+  }
 }
 
 
@@ -705,6 +731,10 @@ body {
     background-image: url(img/illustration-header.png);
     background-repeat: no-repeat;
     background-position: right 50px;
+  }
+
+  .section3 {
+    background-position: right 100px;
   }
 
   .iconsap {
@@ -722,6 +752,10 @@ body {
   .ph1 {
     display: none;
   }
+
+  .aboutmep1 {
+    height: 190px;
+  }
 }
 
 @media screen and (min-width: 1066px) {
@@ -731,5 +765,9 @@ body {
 
   .headerap {
     padding-top: 176px;
+  }
+
+  .aboutmep1 {
+    height: 144px;
   }
 }
