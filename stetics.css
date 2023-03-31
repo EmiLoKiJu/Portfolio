@@ -600,16 +600,17 @@ body {
   .header1p2 {
     padding-right: 0%;
     margin-right: 0%;
+
     /* width: 60%; */
   }
 
   .grid1 {
-  row-gap: 24px;
-  column-gap: 24px;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: auto 435px 435px;
-  margin-left: 10.7%;
-  margin-right: 10.7%;
+    row-gap: 24px;
+    column-gap: 24px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto 435px 435px;
+    margin-left: 10.7%;
+    margin-right: 10.7%;
   }
 
   .mainproject {
@@ -622,10 +623,11 @@ body {
   }
 
   .bigimage {
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 0%;
     width: 100%;
     object-fit: contain;
+
     /* src: url(img/BigImgDesk.png); */
   }
 
@@ -637,11 +639,13 @@ body {
     background-image: url(img/projectvisible1.png);
   }
 
-  .p2, .p5 {
+  .p2,
+  .p5 {
     background-image: url(img/projecthidden2.png);
   }
 
-  .p3, .p6 {
+  .p3,
+  .p6 {
     background-image: url(img/projecthidden3.png);
   }
 
@@ -649,7 +653,7 @@ body {
     background-image: url(img/projecthidden1.png);
   }
 
-  .anotherproject.p1{
+  .anotherproject.p1 {
     flex-direction: column-reverse;
   }
 
@@ -667,6 +671,10 @@ body {
   .iconsap li {
     margin-right: 2%;
     margin-bottom: 2%;
+  }
+
+  .aboutmyselflist li {
+    text-align: left;
   }
 
   .iconsap li:first-child {
@@ -747,10 +755,6 @@ body {
     width: 30%;
   }
 
-  .aboutmyselflist li {
-    text-align: left;
-  }
-
   .specialimg,
   .normalimg {
     display: none;
@@ -787,8 +791,6 @@ body {
     margin-left: 6.7%;
   }
 }
-
-
 
 @media screen and (min-width: 1024px) {
   .section1 {
