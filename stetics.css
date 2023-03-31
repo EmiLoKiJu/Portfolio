@@ -119,8 +119,7 @@ body {
 .bigimage {
   margin-top: 80px;
   text-align: left;
-  margin-left: 6.7%;
-  width: 87.2%;
+  width: 100%;
 }
 
 .grid1 {
@@ -530,6 +529,15 @@ body {
   border-radius: 6px;
 }
 
+.linespanwork {
+  display: block;
+  background-color: #212121;
+  height: 2px;
+  margin-left: 6.7%;
+  margin-right: 6.7%;
+  width: 86%;
+}
+
 @media screen and (min-width: 768px) {
   .section1 {
     height: 800px;
@@ -576,16 +584,16 @@ body {
   }
 
   .linespanwork {
-    background-color: #212121;
-    height: 2px;
     margin-left: 24px;
-    min-width: 28%;
+    margin-right: 24px;
+    min-width: 26%;
+    flex: 1;
   }
 
   .header1p2 {
     padding-right: 0%;
     margin-right: 0%;
-    width: 60%;
+    /* width: 60%; */
   }
 
   .grid1 {
