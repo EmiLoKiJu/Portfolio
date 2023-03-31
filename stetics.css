@@ -538,6 +538,11 @@ body {
   width: 86%;
 }
 
+.statcont {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 768px) {
   .section1 {
     height: 800px;
@@ -719,6 +724,7 @@ body {
   .section3 {
     background-image: url(img/Backgroud2.png);
     background-position: 422px 100px;
+    height: 1300px;
   }
 
   .line2 {
@@ -726,6 +732,31 @@ body {
     margin-right: 11.2%;
     width: auto;
     margin-top: 150px;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 11.2%;
+  }
+
+  .statcont {
+    width: 30%;
+  }
+
+  .aboutmyselflist li {
+    text-align: left;
+  }
+
+  .specialimg,
+  .normalimg {
+    display: none;
+  }
+
+  .littlecont {
+    margin-left: 0%;
+    align-self: flex-start;
   }
 }
 
@@ -743,6 +774,7 @@ body {
 
   .section3 {
     background-position: right 100px;
+    height: 1200px;
   }
 
   .iconsap {
@@ -764,6 +796,11 @@ body {
   .aboutmep1 {
     height: 190px;
   }
+
+  .specialimg,
+  .normalimg {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1066px) {
@@ -777,5 +814,9 @@ body {
 
   .aboutmep1 {
     height: 144px;
+  }
+
+  .section3 {
+    height: 1150px;
   }
 }
