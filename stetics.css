@@ -116,17 +116,10 @@ body {
   margin-left: 6.7%;
 }
 
-.line {
-  text-align: left;
-  margin-left: 6.7%;
-  width: 87.2%;
-}
-
 .bigimage {
   margin-top: 80px;
   text-align: left;
-  margin-left: 6.7%;
-  width: 87.2%;
+  width: 100%;
 }
 
 .grid1 {
@@ -134,7 +127,7 @@ body {
   margin-left: 6.7%;
   margin-right: 6.7%;
   grid-template-columns: auto;
-  grid-template-rows: 384px 384px 384px 384px;
+  grid-template-rows: auto 384px 384px 384px 384px 384px 384px;
   row-gap: 12px;
 }
 
@@ -144,6 +137,13 @@ body {
   margin-top: 0.001px;
 }
 
+.mainproject section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.001px;
+  margin-left: 5%;
+}
+
 .header2p2 {
   color: #091e42;
   font-family: Crete Round, sans-serif;
@@ -151,6 +151,7 @@ body {
   font-weight: 400;
   line-height: 44px;
   text-align: left;
+  margin-bottom: 0%;
 }
 
 .pdescription {
@@ -372,11 +373,13 @@ body {
 }
 
 .line2 {
-  margin-top: 209px;
-  text-align: left;
-  margin-left: 6.7%;
+  background-color: #dbd8d7;
+  height: 2px;
   width: 87.2%;
-  margin-bottom: 137px;
+  margin-left: 6.7%;
+  margin-right: 6.7%;
+  margin-bottom: 5%;
+  margin-top: 200px;
 }
 
 .littlecont {
@@ -415,7 +418,8 @@ body {
   flex-direction: column;
 }
 
-.contactsection div h1 {
+.contactsection h1 {
+  color: #212121;
   font-family: Inter, sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -432,7 +436,7 @@ body {
   width: 87.2%;
   margin-left: 6.7%;
   margin-right: 6.7%;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
 }
 
 .formlu {
@@ -451,21 +455,30 @@ body {
   text-align: left;
   border-radius: 0%;
   border-style: none;
-  margin-bottom: 3.5%;
-  margin-left: 11%;
-  margin-top: 6%;
+  margin-bottom: 14px;
+  margin-left: 6.7%;
+  margin-top: 39px;
+  padding-left: 16px;
 }
 
 .formlu textarea {
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
   margin-left: 6.7%;
   margin-right: 6.7%;
-  margin-top: 2%;
+  margin-top: 24px;
   background-color: #fbf8f7;
   border: none;
   display: flex;
-  width: 82%;
   height: 114px;
-  padding-left: 5%;
+  padding-left: 16px;
+}
+
+.formlu textarea::placeholder {
+  color: #3c3a39;
 }
 
 .submitform {
@@ -478,9 +491,8 @@ body {
   font-weight: 700;
   line-height: 24px;
   text-align: center;
-  margin-top: 6.5%;
+  margin-top: 24px;
   margin-bottom: 22%;
-  width: 35%;
   align-self: center;
 }
 
@@ -511,6 +523,7 @@ body {
 }
 
 .linespanfinal {
+  display: block;
   background-color: #dbd8d7;
   height: 2px;
   width: 100%;
@@ -524,6 +537,20 @@ body {
   margin-bottom: 5%;
   align-self: center;
   border-radius: 6px;
+}
+
+.linespanwork {
+  display: block;
+  background-color: #212121;
+  height: 2px;
+  margin-left: 6.7%;
+  margin-right: 6.7%;
+  width: 86%;
+}
+
+.statcont {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 768px) {
@@ -565,6 +592,213 @@ body {
   .description {
     padding-right: 50%;
   }
+
+  .MyRecentworks {
+    display: flex;
+    align-items: center;
+  }
+
+  .linespanwork {
+    margin-left: 24px;
+    margin-right: 24px;
+    min-width: 26%;
+    flex: 1;
+  }
+
+  .header1p2 {
+    padding-right: 0%;
+    margin-right: 0%;
+
+    /* width: 60%; */
+  }
+
+  .grid1 {
+    row-gap: 24px;
+    column-gap: 24px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto 435px 435px;
+    margin-left: 10.7%;
+    margin-right: 10.7%;
+  }
+
+  .mainproject {
+    grid-column: 1 / span 3;
+    flex-direction: row;
+  }
+
+  .mainproject section {
+    width: 55%;
+  }
+
+  .bigimage {
+    margin-top: 0;
+    margin-left: 0%;
+    width: 100%;
+    object-fit: contain;
+
+    /* src: url(img/BigImgDesk.png); */
+  }
+
+  .header2p2 {
+    margin-top: 0%;
+  }
+
+  .p1 {
+    background-image: url(img/projectvisible1.png);
+  }
+
+  .p2,
+  .p5 {
+    background-image: url(img/projecthidden2.png);
+  }
+
+  .p3,
+  .p6 {
+    background-image: url(img/projecthidden3.png);
+  }
+
+  .p4 {
+    background-image: url(img/projecthidden1.png);
+  }
+
+  .anotherproject.p1 {
+    flex-direction: column-reverse;
+  }
+
+  .headerap {
+    padding-top: 157px;
+  }
+
+  .iconsap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 55px;
+  }
+
+  .iconsap li {
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+
+  .aboutmyselflist li {
+    text-align: left;
+  }
+
+  .iconsap li:first-child {
+    width: 45px;
+  }
+
+  .iconsap li:nth-child(2) {
+    width: 69px;
+  }
+
+  .iconsap li:nth-child(3) {
+    width: 36px;
+  }
+
+  .descriptionap {
+    display: none;
+  }
+
+  .bp2 {
+    display: none;
+  }
+
+  .bp3 {
+    display: none;
+  }
+
+  .bp4 {
+    display: none;
+  }
+
+  .bp5 {
+    display: none;
+  }
+
+  .bp6 {
+    display: none;
+  }
+
+  .ph1 {
+    display: none;
+  }
+
+  .aboutmeh1 {
+    margin-left: 11.2%;
+  }
+
+  .aboutmep1 {
+    max-width: 26.5%;
+    margin-left: 11.2%;
+    height: 260px;
+  }
+
+  .getmyresume {
+    margin-left: 11.2%;
+  }
+
+  .section3 {
+    background-image: url(img/Backgroud2.png);
+    background-position: 422px 100px;
+    height: 1300px;
+  }
+
+  .line2 {
+    margin-left: 11.2%;
+    margin-right: 11.2%;
+    width: auto;
+    margin-top: 150px;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 11.2%;
+  }
+
+  .statcont {
+    width: 30%;
+  }
+
+  .specialimg,
+  .normalimg {
+    display: none;
+  }
+
+  .littlecont {
+    margin-left: 0%;
+    align-self: flex-start;
+  }
+
+  .contactsection {
+    flex-direction: row;
+  }
+
+  .contactsection h1 {
+    width: 455px;
+    font-size: 40px;
+    margin-left: 6.7%;
+    margin-right: 0%;
+    margin-top: 130px;
+    text-align: left;
+  }
+
+  .formlu {
+    margin-top: 130px;
+    flex: 1;
+  }
+
+  #name {
+    margin-top: 15px;
+  }
+
+  .submitform {
+    align-self: flex-start;
+    margin-left: 6.7%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -575,5 +809,53 @@ body {
     background-image: url(img/illustration-header.png);
     background-repeat: no-repeat;
     background-position: right 50px;
+  }
+
+  .section3 {
+    background-position: right 100px;
+    height: 1200px;
+  }
+
+  .iconsap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 16px;
+  }
+
+  .descriptionap {
+    display: block;
+    margin-bottom: 5%;
+  }
+
+  .ph1 {
+    display: none;
+  }
+
+  .aboutmep1 {
+    height: 190px;
+  }
+
+  .specialimg,
+  .normalimg {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1066px) {
+  .descriptionap {
+    margin-bottom: 0%;
+  }
+
+  .headerap {
+    padding-top: 176px;
+  }
+
+  .aboutmep1 {
+    height: 144px;
+  }
+
+  .section3 {
+    height: 1150px;
   }
 }
