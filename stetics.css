@@ -418,7 +418,8 @@ body {
   flex-direction: column;
 }
 
-.contactsection div h1 {
+.contactsection h1 {
+  color: #212121;
   font-family: Inter, sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -514,6 +515,7 @@ body {
 }
 
 .linespanfinal {
+  display: block;
   background-color: #dbd8d7;
   height: 2px;
   width: 100%;
@@ -757,6 +759,32 @@ body {
   .littlecont {
     margin-left: 0%;
     align-self: flex-start;
+  }
+
+  .contactsection {
+    flex-direction: row;
+  }
+
+  .contactsection h1 {
+    width: 455px;
+    font-size: 40px;
+    margin-left: 6.7%;
+    margin-right: 0%;
+    text-align: left;
+  }
+
+  .formlu {
+    margin-top: 130px;
+    flex: 1;
+  }
+
+  #name {
+    margin-top: 0%;
+  }
+
+  .submitform {
+    align-self: flex-start;
+    margin-left: 6.7%;
   }
 }
 
