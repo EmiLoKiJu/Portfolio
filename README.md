@@ -41,13 +41,6 @@
 
 > Any browser with HMTL5 and CSS3
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://google.com/">Google</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -61,7 +54,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](Coming soon!)
+- [Live Demo Link]https://emilokiju.github.io/Portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
