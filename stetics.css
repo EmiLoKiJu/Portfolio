@@ -82,7 +82,6 @@ body {
 
 .mediaiconcontainer {
   list-style-type: none;
-  background-color: #1c1a19;
 }
 
 .mediaiconcontainer a img:hover {
@@ -91,6 +90,15 @@ body {
 
 .mediaiconcontainer a img:active {
   background-color: #fff5e1;
+}
+
+img.mediaicon1::after,
+img.mediaicon2::after,
+img.mediaicon3::after,
+img.mediaicon4::after,
+img.mediaicon5::after {
+  content: attr(alt); /* Set the content to be the alt text */
+  color: white; /* Set the color of the alt text */
 }
 
 .menu {
@@ -501,6 +509,8 @@ body {
   justify-content: center;
   padding-left: 0%;
   list-style-type: none;
+  /* gap: 10px; */
+  align-items: center;
 }
 
 .mediaiconcontainer2 {
