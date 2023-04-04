@@ -112,6 +112,13 @@ You don't need to deploy this project
 - Twitter: [@MarverickRed]("https://twitter.com/MarverickRed)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nylbert-victor-397951120/)
 
+👤 **Enmanuel Bayen**
+
+- GitHub: [@redmarverick](https://github.com/enmanuelbayen)
+- Twitter: [@MarverickRed](https://twitter.com/EJbayen)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/enmanuel-bayen-torres-480906128/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
