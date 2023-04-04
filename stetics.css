@@ -9,7 +9,7 @@ body {
   margin: 0.0001px;
   display: flex;
   flex-direction: column;
-  background-image: url(img/illustration-header-mobile.png);
+  background-image: url(./img/illustration-header-mobile.png);
   background-repeat: no-repeat;
   background-position: 100% 250px;
 }
@@ -558,7 +558,7 @@ body {
     height: 800px;
     align-items: center;
     padding-top: 0%;
-    background-image: url(img/illustration-header.png);
+    background-image: url(./img/illustration-header.png);
     background-repeat: no-repeat;
     background-position: 345px 50px;
   }
@@ -806,7 +806,7 @@ body {
     height: 800px;
     align-items: center;
     padding-top: none;
-    background-image: url(img/illustration-header.png);
+    background-image: url(./img/illustration-header.png);
     background-repeat: no-repeat;
     background-position: right 50px;
   }
