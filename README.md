@@ -114,8 +114,8 @@ You don't need to deploy this project
 
 👤 **Enmanuel Bayen**
 
-- GitHub: [@redmarverick](https://github.com/enmanuelbayen)
-- Twitter: [@MarverickRed](https://twitter.com/EJbayen)
+- GitHub: [@enmanuelbayen](https://github.com/enmanuelbayen)
+- Twitter: [@Ejbayen](https://twitter.com/EJbayen)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enmanuel-bayen-torres-480906128/)
 
 
