@@ -806,7 +806,7 @@ body {
     height: 800px;
     align-items: center;
     padding-top: none;
-    background-image: url(./img/illustration-header.png);
+    /* background-image: url(./img/illustration-header.png); */
     background-repeat: no-repeat;
     background-position: right 50px;
   }
