@@ -60,6 +60,11 @@ body {
   margin-bottom: 15px;
 }
 
+.ximg {
+  height: 12px;
+  width: 12px;
+}
+
 .textcontainer {
   display: flex;
   flex-direction: column;
