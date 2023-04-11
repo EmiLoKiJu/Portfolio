@@ -47,7 +47,7 @@ body {
 
 .menuopen a {
   text-decoration: none;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -581,8 +581,6 @@ body {
   display: block;
   background-color: #6f6c6b;
   height: 2px;
-  /* margin-left: 6.7%;
-  margin-right: 6.7%; */
   width: 86%;
   margin-bottom: 24px;
 }

@@ -1,13 +1,13 @@
-var button = document.querySelector(".menu");
-var element = document.querySelector(".menuopen");
-var links = document.querySelectorAll(".menuopen a");
+let button = document.querySelector(".menu");
+let element = document.querySelector(".menuopen");
+let links = document.querySelectorAll(".menuopen a");
 
-button.addEventListener("click", function() {
+button.addEventListener("click", () {
   element.style.display = "block";
 });
 
-for (var i = 0; i < links.length; i++) {
-    links[i].addEventListener("click", function() {
-      element.style.display = "none";
-    });
+for (let i = 0; i < links.length; i++) {
+  links[i].addEventListener("click", () {
+    element.style.display = "none";
+  });
 }
