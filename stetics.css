@@ -37,12 +37,14 @@ body {
   background-color: #3c3a39;
   height: 100%;
   width: 100%;
+  flex-direction: row;
 }
 
 .menuopen ul {
   list-style-type: none;
   color: #fff5e1;
   padding-left: 24px;
+  padding-top:24px;
 }
 
 .menuopen a {
@@ -58,6 +60,11 @@ body {
 
 .menuopen li {
   margin-bottom: 15px;
+}
+
+.xbutton {
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
 .ximg {
