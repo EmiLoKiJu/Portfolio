@@ -37,7 +37,7 @@ body {
   background-color: #3c3a39;
   height: 100%;
   width: 100%;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .menuopen ul {
@@ -63,8 +63,9 @@ body {
 }
 
 .xbutton {
-  margin-left: 20px;
-  margin-top: 5px;
+  margin-top: 20px;
+  align-self: self-end;
+  margin-right: 20px;
 }
 
 .ximg {
