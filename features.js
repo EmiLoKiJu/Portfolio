@@ -1,6 +1,7 @@
-let button = document.querySelector(".menu");
-let element = document.querySelector(".menuopen");
-let links = document.querySelectorAll(".menuopen a");
+/* eslint-disable no-plusplus */
+const button = document.querySelector(".menu");
+const element = document.querySelector(".menuopen");
+const links = document.querySelectorAll(".menuopen a");
 
 button.addEventListener("click", () => {
   element.style.display = "block";
