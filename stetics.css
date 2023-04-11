@@ -9,7 +9,7 @@ body {
   margin: 0.0001px;
   display: flex;
   flex-direction: column;
-  background-image: url(./img/illustration-header-mobile.png);
+  background-image: url(.img/illustration-header-mobile.png);
   background-repeat: no-repeat;
   background-position: 100% 250px;
 }
@@ -29,6 +29,48 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.menuopen {
+  display: none;
+  position: fixed;
+  background-color: #3c3a39;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.menuopen ul {
+  list-style-type: none;
+  color: #fff5e1;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+.menuopen a {
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: #fff5e1;
+  padding-left: 16px;
+}
+
+.menuopen li {
+  margin-bottom: 15px;
+}
+
+.xbutton {
+  margin-top: 20px;
+  align-self: self-end;
+  margin-right: 20px;
+}
+
+.ximg {
+  height: 12px;
+  width: 12px;
 }
 
 .textcontainer {
@@ -82,6 +124,7 @@ body {
 
 .mediaiconcontainer {
   list-style-type: none;
+  background-color: #1c1a19;
 }
 
 .mediaiconcontainer a img:hover {
@@ -90,15 +133,6 @@ body {
 
 .mediaiconcontainer a img:active {
   background-color: #fff5e1;
-}
-
-img.mediaicon1::after,
-img.mediaicon2::after,
-img.mediaicon3::after,
-img.mediaicon4::after,
-img.mediaicon5::after {
-  content: attr(alt); /* Set the content to be the alt text */
-  color: white; /* Set the color of the alt text */
 }
 
 .menu {
@@ -509,8 +543,6 @@ img.mediaicon5::after {
   justify-content: center;
   padding-left: 0%;
   list-style-type: none;
-  /* gap: 10px; */
-  align-items: center;
 }
 
 .mediaiconcontainer2 {
@@ -558,6 +590,14 @@ img.mediaicon5::after {
   width: 86%;
 }
 
+.line3 {
+  display: block;
+  background-color: #6f6c6b;
+  height: 2px;
+  width: 86%;
+  margin-bottom: 24px;
+}
+
 .statcont {
   display: flex;
   flex-direction: column;
@@ -568,7 +608,7 @@ img.mediaicon5::after {
     height: 800px;
     align-items: center;
     padding-top: 0%;
-    background-image: url(./img/illustration-header.png);
+    background-image: url(img/illustration-header.png);
     background-repeat: no-repeat;
     background-position: 345px 50px;
   }
@@ -618,8 +658,6 @@ img.mediaicon5::after {
   .header1p2 {
     padding-right: 0%;
     margin-right: 0%;
-
-    /* width: 60%; */
   }
 
   .grid1 {
@@ -645,8 +683,6 @@ img.mediaicon5::after {
     margin-left: 0%;
     width: 100%;
     object-fit: contain;
-
-    /* src: url(img/BigImgDesk.png); */
   }
 
   .header2p2 {
@@ -816,7 +852,7 @@ img.mediaicon5::after {
     height: 800px;
     align-items: center;
     padding-top: none;
-    /* background-image: url(./img/illustration-header.png); */
+    background-image: url(img/illustration-header.png);
     background-repeat: no-repeat;
     background-position: right 50px;
   }
