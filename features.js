@@ -62,16 +62,37 @@ const projects = {
 }
 const mainp = document.querySelector('body');
 
-let div1 = document.createElement('div');
-div1.classList.add('pdetailswin');
-div1.innerHTML = '<p>'+Object.keys(projects)[2]+'</p>';
+
 //document.body.appendChild(div1);1
 //let div2 = document.querySelector('pdetailswin');
 //div1.parentNode.removeChild(div1);
-
-mainpdetailbutton.addEventListener('click', () => {
+function createpwin(proj) {
+  let div1 = document.createElement('div');
+  div1.classList.add('pdetailswin');
+  let feats = projects[Object.keys(projects)[proj]].features;
+  let featstr = '';
+  for(let i=0;i<feats.length;i++)
+  {
+    featstr += '<li>'+feats[i]+'</li>';
+  }
+  div1.innerHTML = '\
+  <div class="notblur mdivp">\
+    <div class="dflex spacebetween">\
+      <h2>'+Object.keys(projects)[proj]+'</h2>\
+      <div class="xbuttonp">\
+        <img class="ximg" src="./img/Icon.png" alt="X">\
+      </div>\
+    </div>\
+    <div class="featureul">\
+      <ul class="projecticons">\
+        '+featstr+'\
+    </div>\
+  </div>';
   mainp.appendChild(div1);
   console.log(div1);
+}
+mainpdetailbutton.addEventListener('click', () => {
+  createpwin(0);
 });
 
 //p1p4pdetailbutton 

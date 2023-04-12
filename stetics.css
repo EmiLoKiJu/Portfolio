@@ -3,17 +3,57 @@ body {
   margin: 0.0001px;
 }
 
+.dflex {
+  display: flex;
+}
+
 .flexcol {
   flex-direction: column;
+}
+
+.spacebetween {
+  justify-content: space-between;
 }
 
 .pdetailswin {
   position: fixed;
   top: 0;
   width: 100%;
-  font-size: 50px;
-  color: #ff6b00;
-  background-color: aqua;
+  height: 100%;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+}
+
+.notblur {
+  border: 1px solid #dfe1e6;
+  background-color: white;
+}
+
+.mdivp{
+  margin-top: 60px;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+.featureul {
+  margin-top: 50px;
+  margin-left: 3.5%;
+}
+
+.pdetailswin div h2 {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: #172b4d;
+  margin-top: 16px;
+  margin-left: 3.7%;
+}
+
+.xbuttonp {
+  margin-top: 30px;
+  margin-right: 3.7%;
 }
 
 .section1 {
@@ -75,7 +115,7 @@ body {
   margin-bottom: 15px;
 }
 
-.xbutton {
+.xbuttonm {
   margin-top: 20px;
   align-self: self-end;
   margin-right: 20px;
