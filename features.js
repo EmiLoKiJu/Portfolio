@@ -8,8 +8,8 @@ const p2p5pdetailbutton = document.querySelector('.p2 seeproject2', '.p5 seeproj
 const p3p6pdetailbutton = document.querySelector('.p3 seeproject2', '.p6 seeproject2');
 const projects = {
   'Multi-Post stories': {
-    features: ['HTML', 'Bootstrap', 'Ruby on rails'],
-    imgagesrc: "./img/projectdetailimg.png",
+    features: ['HTML', 'CSS', 'Bootstrap', 'Ruby on rails'],
+    imagesrc: 'src="./img/projectdetailimg.png"',
     projectdescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
     Suspendisse interdum a dolor sit amet egestas. Vivamus lacus dui, dignissim a odio \
     lobortis, ornare cursus mauris. Phasellus mollis mollis ornare. Nullam ornare, \
@@ -22,7 +22,7 @@ const projects = {
   },
   'Profesional Art Printing Data More': {
     features: ['HTML', 'Bootstrap', 'Ruby on rails'],
-    imgagesrc: "./img/projectdetailimg.png",
+    imagesrc: 'src="./img/projectdetailimg.png"',
     projectdescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
     Suspendisse interdum a dolor sit amet egestas. Vivamus lacus dui, dignissim a odio \
     lobortis, ornare cursus mauris. Phasellus mollis mollis ornare. Nullam ornare, \
@@ -34,8 +34,8 @@ const projects = {
     seesrc: "https://github.com/EmiLoKiJu/Portfolio"
   },
   'Data Dashboard Healthcare': {
-    features: ['HTML', 'Bootstrap', 'Ruby on rails'],
-    imgagesrc: "./img/projectdetailimg.png",
+    features: ['HTML', 'CSS', 'Ruby on rails'],
+    imagesrc: 'src="./img/projectdetailimg.png"',
     projectdescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
     Suspendisse interdum a dolor sit amet egestas. Vivamus lacus dui, dignissim a odio \
     lobortis, ornare cursus mauris. Phasellus mollis mollis ornare. Nullam ornare, \
@@ -48,7 +48,7 @@ const projects = {
   },
   'Website Portfolio ': {
     features: ['HTML', 'Bootstrap', 'Ruby on rails'],
-    imgagesrc: "./img/projectdetailimg.png",
+    imagesrc: 'src="./img/projectdetailimg.png"',
     projectdescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
     Suspendisse interdum a dolor sit amet egestas. Vivamus lacus dui, dignissim a odio \
     lobortis, ornare cursus mauris. Phasellus mollis mollis ornare. Nullam ornare, \
@@ -70,6 +70,7 @@ function createpwin(proj) {
   let div1 = document.createElement('div');
   div1.classList.add('pdetailswin');
   let feats = projects[Object.keys(projects)[proj]].features;
+  let imgsrc = projects[Object.keys(projects)[proj]].imagesrc;
   let featstr = '';
   for(let i=0;i<feats.length;i++)
   {
@@ -86,10 +87,17 @@ function createpwin(proj) {
     <div class="featureul">\
       <ul class="projecticons">\
         '+featstr+'\
+      </ul>\
+    </div>\
+    <div>\
+      <img class="bigimage" '+ imgsrc +' alt="Image Placeholder">\
+      <div>\
+        <p></p>\
+      </div>\
     </div>\
   </div>';
   mainp.appendChild(div1);
-  console.log(div1);
+  console.log(imgsrc);
 }
 mainpdetailbutton.addEventListener('click', () => {
   createpwin(0);
