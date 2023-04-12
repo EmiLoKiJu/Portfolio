@@ -3,6 +3,14 @@ body {
   margin: 0.0001px;
 }
 
+.flexcol {
+  flex-direction: column;
+}
+
+.pdetailswin {
+  position: fixed;
+}
+
 .section1 {
   height: 700px;
   background-color: #1c1a19;
