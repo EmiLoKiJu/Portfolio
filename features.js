@@ -1,3 +1,5 @@
+const { createElement } = require("parse5/lib/tree-adapters/default");
+
 /* eslint-disable no-plusplus */
 const button = document.querySelector('.menu');
 const element = document.querySelector('.menuopen');
@@ -17,8 +19,8 @@ const projects = {
     Quisque leo erat, luctus at leo sit amet, consectetur elementum odio. Proin vulputate \
     erat et felis bibendum sollicitudin. Nulla pretium lobortis ligula eu feugiat. Sed nibh \
     ligula, porta ac lorem vitae, ultrices cursus feliz",
-    seelive: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    seesrc: "https://github.com/EmiLoKiJu/Portfolio"
+    seelive: '<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">',
+    seesrc: '<a href="https://github.com/EmiLoKiJu/Portfolio">'
   },
   'Profesional Art Printing Data More': {
     features: ['HTML', 'Bootstrap', 'Ruby on rails'],
@@ -30,8 +32,8 @@ const projects = {
     Quisque leo erat, luctus at leo sit amet, consectetur elementum odio. Proin vulputate \
     erat et felis bibendum sollicitudin. Nulla pretium lobortis ligula eu feugiat. Sed nibh \
     ligula, porta ac lorem vitae, ultrices cursus feliz",
-    seelive: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    seesrc: "https://github.com/EmiLoKiJu/Portfolio"
+    seelive: '<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">',
+    seesrc: '<a href="https://github.com/EmiLoKiJu/Portfolio">'
   },
   'Data Dashboard Healthcare': {
     features: ['HTML', 'CSS', 'Ruby on rails'],
@@ -43,8 +45,8 @@ const projects = {
     Quisque leo erat, luctus at leo sit amet, consectetur elementum odio. Proin vulputate \
     erat et felis bibendum sollicitudin. Nulla pretium lobortis ligula eu feugiat. Sed nibh \
     ligula, porta ac lorem vitae, ultrices cursus feliz",
-    seelive: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    seesrc: "https://github.com/EmiLoKiJu/Portfolio"
+    seelive: '<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">',
+    seesrc: '<a href="https://github.com/EmiLoKiJu/Portfolio">'
   },
   'Website Portfolio ': {
     features: ['HTML', 'Bootstrap', 'Ruby on rails'],
@@ -56,14 +58,14 @@ const projects = {
     Quisque leo erat, luctus at leo sit amet, consectetur elementum odio. Proin vulputate \
     erat et felis bibendum sollicitudin. Nulla pretium lobortis ligula eu feugiat. Sed nibh \
     ligula, porta ac lorem vitae, ultrices cursus feliz",
-    seelive: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    seesrc: "https://github.com/EmiLoKiJu/Portfolio"
+    seelive: '<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">',
+    seesrc: '<a href="https://github.com/EmiLoKiJu/Portfolio">'
   }
 }
 const mainp = document.querySelector('body');
 
 
-//document.body.appendChild(div1);1
+//document.body.appendChild(div1);
 //let div2 = document.querySelector('pdetailswin');
 //div1.parentNode.removeChild(div1);
 function createpwin(proj) {
@@ -72,6 +74,8 @@ function createpwin(proj) {
   let feats = projects[Object.keys(projects)[proj]].features;
   let imgsrc = projects[Object.keys(projects)[proj]].imagesrc;
   let projdesc = projects[Object.keys(projects)[proj]].projectdescription;
+  let livearef = projects[Object.keys(projects)[proj]].seelive;
+  let sourcearef = projects[Object.keys(projects)[proj]].seesrc;
   let featstr = '';
   for(let i=0;i<feats.length;i++)
   {
@@ -82,7 +86,7 @@ function createpwin(proj) {
     <div class="dflex spacebetween">\
       <h2>'+Object.keys(projects)[proj]+'</h2>\
       <div class="xbuttonp">\
-        <img class="ximg" src="./img/Icon.png" alt="X">\
+        '+closeprojectdetails+'\
       </div>\
     </div>\
     <div class="imageanddesc">\
@@ -92,20 +96,27 @@ function createpwin(proj) {
     </div>\
     <div class="imageanddesc">\
       <img class="bigimage2" '+ imgsrc +' alt="Image Placeholder">\
-      <div>\
+      <div class="imageanddesc flexcol">\
         <p>'+projdesc+'</p>\
-        <div>\
-\
+        <div class="dflex spacebetween spacebetweenremove mbottom">\
+          '+livearef+'<img src="img/seeLive.png"></a>\
+          '+sourcearef+'<img src="img/seeSource.png"></a>\
         </div>\
       </div>\
     </div>\
   </div>';
   mainp.appendChild(div1);
-  console.log(imgsrc);
+  console.log(mainpdetailbutton);
 }
+
 mainpdetailbutton.addEventListener('click', () => {
   createpwin(0);
 });
+
+let btn = document.createElement('button');
+//closeprojectdetails.addEventListener('click', () => {
+//  div1.parentNode.removeChild(div1);
+//});
 
 //p1p4pdetailbutton 
 //p2p5pdetailbutton 

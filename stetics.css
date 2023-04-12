@@ -20,6 +20,7 @@ body {
 }
 
 .pdetailswin {
+  display: flex;
   position: fixed;
   top: 0;
   width: 100%;
@@ -39,10 +40,8 @@ body {
   margin-right: 3.5%;
 }
 
-.featureul {
-  margin-top: 50px;
-  margin-left: 3.5%;
-  margin-right: 3.5%;
+.mbottom {
+  margin-bottom: 24px;
 }
 
 .imageanddesc {
@@ -54,6 +53,8 @@ body {
 .bigimage2 {
   text-align: left;
   width: 100%;
+  max-width: 659px;
+  max-height: 448px;
 }
 
 .pdetailswin div h2 {
@@ -673,6 +674,33 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .imageanddesc {
+    display: flex;
+    margin-top: 0%;
+  }
+
+  .imageanddesc p {
+    margin-top: 0%;
+  }
+
+  .spacebetweenremove {
+    justify-content: start;
+  }
+
+  .spacebetween a {
+    margin-right: 12px;
+  }
+
+  .imageanddesc {
+    margin-left: 1.6%;
+    margin-bottom: 27px;
+  }
+
+  .bigimage2 {
+    width: 50%;
+    height: 50%;
+  }
+
   .section1 {
     height: 800px;
     align-items: center;
