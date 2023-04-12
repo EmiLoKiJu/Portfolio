@@ -71,6 +71,7 @@ function createpwin(proj) {
   div1.classList.add('pdetailswin');
   let feats = projects[Object.keys(projects)[proj]].features;
   let imgsrc = projects[Object.keys(projects)[proj]].imagesrc;
+  let projdesc = projects[Object.keys(projects)[proj]].projectdescription;
   let featstr = '';
   for(let i=0;i<feats.length;i++)
   {
@@ -84,15 +85,18 @@ function createpwin(proj) {
         <img class="ximg" src="./img/Icon.png" alt="X">\
       </div>\
     </div>\
-    <div class="featureul">\
-      <ul class="projecticons">\
+    <div class="imageanddesc">\
+      <ul class="projecticons flexwrap">\
         '+featstr+'\
       </ul>\
     </div>\
-    <div>\
-      <img class="bigimage" '+ imgsrc +' alt="Image Placeholder">\
+    <div class="imageanddesc">\
+      <img class="bigimage2" '+ imgsrc +' alt="Image Placeholder">\
       <div>\
-        <p></p>\
+        <p>'+projdesc+'</p>\
+        <div>\
+\
+        </div>\
       </div>\
     </div>\
   </div>';
