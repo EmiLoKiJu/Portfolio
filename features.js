@@ -60,16 +60,17 @@ const projects = {
     seesrc: "https://github.com/EmiLoKiJu/Portfolio"
   }
 }
+const mainp = document.querySelector('body');
 
 let div1 = document.createElement('div');
 div1.classList.add('pdetailswin');
-div1.innerHTML = '<p>'+Object.keys(projects)+'</p>';
-//document.body.appendChild(div1);
+div1.innerHTML = '<p>'+Object.keys(projects)[2]+'</p>';
+//document.body.appendChild(div1);1
 //let div2 = document.querySelector('pdetailswin');
 //div1.parentNode.removeChild(div1);
 
 mainpdetailbutton.addEventListener('click', () => {
-  document.body.appendChild(div1);
+  mainp.appendChild(div1);
   console.log(div1);
 });
 
