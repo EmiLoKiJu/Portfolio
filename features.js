@@ -120,7 +120,7 @@ function createpwin(proj) {
   for (let i = 0; i < feats.length; i++) {
     featstr += `<li>${feats[i]}</li>`;
   }
-  div1.innerHTML = ''
+  div1.innerHTML = ``
   + '<div class="notblur mdivp">'
     + '<div class="dflex spacebetween">'
       + `<h2>${Object.keys(projects)[proj]}</h2>`
@@ -130,13 +130,13 @@ function createpwin(proj) {
     + '</div>'
     + '<div class="imageanddesc">'
       + '<ul class="projecticons flexwrap">'
-        + featstr
+        + `${featstr}`
       + '</ul>'
     + '</div>'
     + '<div class="imageanddesc">'
       + `<img class="bigimage2" ${imgsrc} alt="Image Placeholder">`
       + '<div class="imageanddesc flexcol">'
-        +  `<p> ${projdesc} </p>`
+        + `<p> ${projdesc} </p>`
         + '<div class="dflex spacebetween spacebetweenremove mbottom">'
           + `${livearef} <img src="img/seeLive.png"></a>`
           + `${sourcearef} <img src="img/seeSource.png"></a>`
