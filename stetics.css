@@ -3,13 +3,85 @@ body {
   margin: 0.0001px;
 }
 
+.dflex {
+  display: flex;
+}
+
+.flexcol {
+  flex-direction: column;
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+.flexwrap {
+  flex-wrap: wrap;
+}
+
+.pdetailswin {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+}
+
+.notblur {
+  border: 1px solid #dfe1e6;
+  background-color: white;
+}
+
+.mdivp {
+  margin-top: 60px;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+.mbottom {
+  margin-bottom: 24px;
+}
+
+.imageanddesc {
+  margin-top: 24px;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+.bigimage2 {
+  text-align: left;
+  width: 100%;
+  max-width: 659px;
+  max-height: 448px;
+}
+
+.pdetailswin div h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: #172b4d;
+  margin-top: 16px;
+  margin-left: 3.7%;
+}
+
+.xbuttonp {
+  margin-top: 30px;
+  margin-right: 3.7%;
+}
+
 .section1 {
   height: 700px;
   background-color: #1c1a19;
   margin: 0.0001px;
   display: flex;
   flex-direction: column;
-  background-image: url(.img/illustration-header-mobile.png);
+  background-image: url(./img/illheaderm.png);
   background-repeat: no-repeat;
   background-position: 100% 250px;
 }
@@ -17,7 +89,7 @@ body {
 .header {
   border: none;
   height: 50px;
-  margin: none none none none;
+  margin: 0 0 0 0;
   padding-left: 5%;
   padding-right: 5%;
   order: -2;
@@ -62,7 +134,7 @@ body {
   margin-bottom: 15px;
 }
 
-.xbutton {
+.xbuttonm {
   margin-top: 20px;
   align-self: self-end;
   margin-right: 20px;
@@ -346,6 +418,7 @@ body {
   justify-content: center;
   text-align: center;
   align-items: center;
+  z-index: 1;
 }
 
 .seeproject2:hover {
@@ -604,6 +677,34 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .pdetailswin div h2 {
+    margin-left: 1.8%;
+  }
+
+  .imageanddesc {
+    display: flex;
+    margin-top: 0%;
+    margin-left: 1.8%;
+    margin-bottom: 27px;
+  }
+
+  .imageanddesc p {
+    margin-top: 0%;
+  }
+
+  .spacebetweenremove {
+    justify-content: start;
+  }
+
+  .spacebetween a {
+    margin-right: 12px;
+  }
+
+  .bigimage2 {
+    width: 50%;
+    height: 50%;
+  }
+
   .section1 {
     height: 800px;
     align-items: center;
@@ -614,7 +715,7 @@ body {
   }
 
   .header {
-    width: 99%;
+    /* width: 99%; */
     height: 60px;
     padding-left: 100px;
     padding-right: 50px;
@@ -690,32 +791,56 @@ body {
   }
 
   .p1 {
+    position: relative;
     background-image: url(img/projectvisible1.png);
   }
 
-  .p2,
-  .p5 {
-    background-image: url(img/projecthidden2.png);
+  .pgradient {
+    display: block;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
-  .p3,
-  .p6 {
-    background-image: url(img/projecthidden3.png);
+  .p2 {
+    position: relative;
+    background-image: url(img/pv2.png);
+  }
+
+  .p3 {
+    position: relative;
+    background-image: url(img/pv3.png);
   }
 
   .p4 {
-    background-image: url(img/projecthidden1.png);
+    position: relative;
+    background-image: url(img/pv6.png);
   }
 
-  .anotherproject.p1 {
+  .p5 {
+    position: relative;
+    background-image: url(img/pv5.png);
+  }
+
+  .p6 {
+    position: relative;
+    background-image: url(img/projectvisible1.png);
+  }
+
+  .colrev {
     flex-direction: column-reverse;
   }
 
   .headerap {
+    z-index: 1;
     padding-top: 157px;
   }
 
   .iconsap {
+    z-index: 1;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -747,27 +872,7 @@ body {
     display: none;
   }
 
-  .bp2 {
-    display: none;
-  }
-
-  .bp3 {
-    display: none;
-  }
-
-  .bp4 {
-    display: none;
-  }
-
-  .bp5 {
-    display: none;
-  }
-
-  .bp6 {
-    display: none;
-  }
-
-  .ph1 {
+  .bp {
     display: none;
   }
 
@@ -851,7 +956,7 @@ body {
   .section1 {
     height: 800px;
     align-items: center;
-    padding-top: none;
+    padding-top: 0;
     background-image: url(img/illustration-header.png);
     background-repeat: no-repeat;
     background-position: right 50px;
@@ -870,12 +975,9 @@ body {
   }
 
   .descriptionap {
+    z-index: 1;
     display: block;
     margin-bottom: 5%;
-  }
-
-  .ph1 {
-    display: none;
   }
 
   .aboutmep1 {
@@ -885,6 +987,10 @@ body {
   .specialimg,
   .normalimg {
     display: block;
+  }
+
+  .bp {
+    display: none;
   }
 }
 
