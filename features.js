@@ -120,7 +120,7 @@ function createpwin(proj) {
   for (let i = 0; i < feats.length; i++) {
     featstr += `<li>${feats[i]}</li>`;
   }
-  div1.innerHTML = ``
+  div1.innerHTML = ''
   + '<div class="notblur mdivp">'
     + '<div class="dflex spacebetween">'
       + `<h2>${Object.keys(projects)[proj]}</h2>`
