@@ -65,7 +65,7 @@ const projects = {
     seelive: '<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">',
     seesrc: '<a href="https://github.com/EmiLoKiJu/Portfolio">'
   },
-  'Profesional Art Printing Data More': {
+  'Profesional Art Printing Data More 2': {
     features: ['HTML', 'Bootstrap', 'Ruby on rails'],
     imagesrc: 'src="./img/projectdetailimg.png"',
     projectdescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
@@ -78,7 +78,7 @@ const projects = {
     seelive: '<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">',
     seesrc: '<a href="https://github.com/EmiLoKiJu/Portfolio">'
   },
-  'Data Dashboard Healthcare': {
+  'Data Dashboard Healthcare 2': {
     features: ['HTML', 'CSS', 'Ruby on rails'],
     imagesrc: 'src="./img/projectdetailimg.png"',
     projectdescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
@@ -91,7 +91,7 @@ const projects = {
     seelive: '<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">',
     seesrc: '<a href="https://github.com/EmiLoKiJu/Portfolio">'
   },
-  'Website Portfolio ': {
+  'Website Portfolio 2': {
     features: ['HTML', 'Bootstrap', 'Ruby on rails'],
     imagesrc: 'src="./img/projectdetailimg.png"',
     projectdescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
@@ -158,7 +158,6 @@ for(let i=0;i<buttonarr.length;i++)
 {
   buttonarr[i].addEventListener('click', () => {
     createpwin(i);
-    console.log("i = ",i," , buttonarr[i] = ", buttonarr[i]);
   });
 }
 
