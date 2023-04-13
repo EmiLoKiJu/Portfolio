@@ -11,8 +11,7 @@ const element = document.querySelector('.menuopen');
 const links = document.querySelectorAll('.menuopen a, .menuopen img');
 const buttonarr = [mainpdetailbutton, p1pdetailbutton, p2pdetailbutton,
   p3pdetailbutton, p4pdetailbutton, p5pdetailbutton, p6pdetailbutton];
-  let closeprojectdetails;
-
+let closeprojectdetails;
 const projects = {
   'Multi-Post stories': {
     features: ['HTML', 'CSS', 'Bootstrap', 'Ruby on rails'],
@@ -118,14 +117,14 @@ function createpwin(proj) {
   const livearef = projects[Object.keys(projects)[proj]].seelive;
   const sourcearef = projects[Object.keys(projects)[proj]].seesrc;
   let featstr = '';
-  for (let i = 0; i < feats.length; i++){
+  for (let i = 0; i < feats.length; i++) {
     featstr += '<li>' + feats[i] + '</li>';
   }
   div1.innerHTML = ''
   + '<div class="notblur mdivp">'
     + '<div class="dflex spacebetween">'
       + '<h2>' + Object.keys(projects)[proj] + '</h2>'
-      + '<div class="xbuttonp">' +
+      + '<div class="xbuttonp">'
         + '<img class="ximg" src="./img/Icon.png" alt="X">'
       + '</div>'
     + '</div>'
