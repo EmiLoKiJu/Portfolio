@@ -12,6 +12,7 @@ const links = document.querySelectorAll('.menuopen a, .menuopen img');
 const buttonarr = [mainpdetailbutton, p1pdetailbutton, p2pdetailbutton,
   p3pdetailbutton, p4pdetailbutton, p5pdetailbutton, p6pdetailbutton];
 let closeprojectdetails;
+const anotherproject = document.querySelectorAll('.anotherproject');
 const projects = {
   'Multi-Post stories': {
     features: ['HTML', 'CSS', 'Bootstrap', 'Ruby on rails'],
@@ -143,7 +144,8 @@ function createpwin(proj) {
         + '</div>'
       + '</div>'
     + '</div>'
-  + '</div>';
+  + '</div>'
+  + '<div>.</div>';
   mainp.appendChild(div1);
   closeprojectdetails = document.querySelector('.xbuttonp .ximg');
   closeprojectdetails.addEventListener('click', () => {
@@ -164,5 +166,27 @@ button.addEventListener('click', () => {
 for (let i = 0; i < links.length; i++) {
   links[i].addEventListener('click', () => {
     element.style.display = 'none';
+  });
+}
+
+for (let i = 0; i < anotherproject.length; i++) {
+  const ph = anotherproject[i].querySelectorAll('.ph');
+  const bp = anotherproject[i].querySelector('.bp');
+  const grad = anotherproject[i].querySelector(".pgradient");
+  anotherproject[i].addEventListener('mouseenter', () => {
+    anotherproject[i].classList.add("colrev");
+    bp.classList.remove("bp");
+    grad.classList.add("bp");
+    for (let i = 0; i < ph.length; i++) {
+      ph[i].classList.add("bp");
+    }
+  });
+  anotherproject[i].addEventListener('mouseleave', () => {
+    anotherproject[i].classList.remove("colrev");
+    bp.classList.add("bp");
+    grad.classList.remove("bp");
+    for (let i = 0; i < ph.length; i++) {
+      ph[i].classList.remove("bp");
+    }
   });
 }
