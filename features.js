@@ -118,26 +118,28 @@ function createpwin(proj) {
   const sourcearef = projects[Object.keys(projects)[proj]].seesrc;
   let featstr = '';
   for (let i = 0; i < feats.length; i++) {
-    featstr += `<li> + ${feats[i]} + </li>`;
+    featstr += `<li>${feats[i]}</li>`;
   }
-  div1.innerHTML = '<div class="notblur mdivp">'
+  div1.innerHTML = ''
+  + '<div class="notblur mdivp">'
     + '<div class="dflex spacebetween">'
-      + '<h2>' + Object.keys(projects)[proj] + '</h2>'
+      + `<h2>${Object.keys(projects)[proj]}</h2>`
       + '<div class="xbuttonp">'
         + '<img class="ximg" src="./img/Icon.png" alt="X">'
       + '</div>'
     + '</div>'
     + '<div class="imageanddesc">'
       + '<ul class="projecticons flexwrap">'
-        + '' + featstr + ''
+        + featstr
       + '</ul>'
     + '</div>'
     + '<div class="imageanddesc">'
-      + '<img class="bigimage2" ' + imgsrc + ' alt="Image Placeholder">'
-      + '<div class="imageanddesc flexcol">\' +        <p>' + projdesc + '</p>'
+      + `<img class="bigimage2" ${imgsrc} alt="Image Placeholder">`
+      + '<div class="imageanddesc flexcol">'
+        +  `<p> ${projdesc} </p>`
         + '<div class="dflex spacebetween spacebetweenremove mbottom">'
-          + '' + livearef + '<img src="img/seeLive.png"></a>'
-          + '' + sourcearef + '<img src="img/seeSource.png"></a>'
+          + `${livearef} <img src="img/seeLive.png"></a>`
+          + `${sourcearef} <img src="img/seeSource.png"></a>`
         + '</div>'
       + '</div>'
     + '</div>'
