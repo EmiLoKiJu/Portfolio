@@ -172,21 +172,21 @@ for (let i = 0; i < links.length; i++) {
 for (let i = 0; i < anotherproject.length; i++) {
   const ph = anotherproject[i].querySelectorAll('.ph');
   const bp = anotherproject[i].querySelector('.bp');
-  const grad = anotherproject[i].querySelector(".pgradient");
+  const grad = anotherproject[i].querySelector('.pgradient');
   anotherproject[i].addEventListener('mouseenter', () => {
-    anotherproject[i].classList.add("colrev");
-    bp.classList.remove("bp");
-    grad.classList.add("bp");
+    anotherproject[i].classList.add('colrev');
+    bp.classList.remove('bp');
+    grad.classList.add('bp');
     for (let i = 0; i < ph.length; i++) {
-      ph[i].classList.add("bp");
+      ph[i].classList.add('bp');
     }
   });
   anotherproject[i].addEventListener('mouseleave', () => {
-    anotherproject[i].classList.remove("colrev");
-    bp.classList.add("bp");
-    grad.classList.remove("bp");
+    anotherproject[i].classList.remove('colrev');
+    bp.classList.add('bp');
+    grad.classList.remove('bp');
     for (let i = 0; i < ph.length; i++) {
-      ph[i].classList.remove("bp");
+      ph[i].classList.remove('bp');
     }
   });
 }
