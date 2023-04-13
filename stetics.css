@@ -677,10 +677,14 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .pdetailswin div h2 {
+    margin-left: 1.8%;
+  }
+
   .imageanddesc {
     display: flex;
     margin-top: 0%;
-    margin-left: 1.6%;
+    margin-left: 1.8%;
     margin-bottom: 27px;
   }
 
