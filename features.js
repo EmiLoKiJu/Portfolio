@@ -12,6 +12,7 @@ const element = document.querySelector('.menuopen');
 const links = document.querySelectorAll('.menuopen a, .menuopen img');
 const buttonarr = [mainpdetailbutton, p1pdetailbutton, p2pdetailbutton,
   p3pdetailbutton, p4pdetailbutton, p5pdetailbutton, p6pdetailbutton];
+var classlnWindow = 'pdetailswin';
 let closeprojectdetails;
 const anotherproject = document.querySelectorAll('.anotherproject');
 const projects = {
@@ -110,7 +111,7 @@ const projects = {
 
 function createpwin(proj) {
   const div1 = document.createElement('div');
-  div1.classList.add('pdetailswin');
+  div1.classList.add(classInWindow);
   const feats = projects[Object.keys(projects)[proj]].features;
   const imgsrc = projects[Object.keys(projects)[proj]].imagesrc;
   const projdesc = projects[Object.keys(projects)[proj]].projectdescription;
