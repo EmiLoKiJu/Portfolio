@@ -193,14 +193,13 @@ for (let i = 0; i < anotherproject.length; i++) {
 // --- Form starts --- //
 
 const form = document.querySelector('.formlu');
-const emailRegex =
-		/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 const hasuppercase = /[A-Z]/;
-form.addEventListener("submit", (event) => {
+form.addEventListener('submit', (event) => {
   event.preventDefault();
-  if (form.elements["user_email"].value == '') form.querySelector('small').innerHTML = 'Error: Email is required.';
-  else if (hasuppercase.test(form.elements["user_email"].value)) form.querySelector('small').innerHTML = 'Error: No Uppercases allowed.';
-  else if (!emailRegex.test(form.elements["user_email"].value)) form.querySelector('small').innerHTML = 'Error: Not valid Email was provided.';
+  if (form.elements.user_email.value === '') form.querySelector('small').innerHTML = 'Error: Email is required.';
+  else if (hasuppercase.test(form.elements.user_email.value)) form.querySelector('small').innerHTML = 'Error: No Uppercases allowed.';
+  else if (!emailRegex.test(form.elements.user_email.value)) form.querySelector('small').innerHTML = 'Error: Not valid Email was provided.';
   else {
     form.querySelector('small').innerHTML = '';
     form.submit();
