@@ -19,6 +19,16 @@ body {
   flex-wrap: wrap;
 }
 
+small {
+  margin-left: 6.7%;
+  padding-left: 16px;
+  color: red;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
 .pdetailswin {
   z-index: 2;
   display: flex;

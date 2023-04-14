@@ -262,17 +262,16 @@
             </section>
         </section>
         <section class="contactsection" id="contact">
-            <!-- <div class="form"> -->
-                <h1>
-                    I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-                </h1>
-            <!-- </div> -->
-            <form action="https://formspree.io/f/xzbqjzwo" class="formlu" method="post">
-                <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30" required/>
+            <h1>
+                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+            </h1>
+            <form action="https://formspree.io/f/xzbqjzwo" class="formlu" method="post">    <!-- -->
+                <input type="text" id="name" name="user_name" placeholder="Full name" maxlength="30"/>
                 <span class="linespan"></span>
-                <input type="email" id="mail" name="user_email" placeholder="Email address" required/>
+                <input id="mail" name="user_email" placeholder="Email address"/>
+                <small></small>
                 <span class="linespan"></span>
-                <textarea id="msg" name="user_message" placeholder="Write me something..." maxlength="500" required></textarea>
+                <textarea id="msg" name="user_message" placeholder="Write me something..." maxlength="500"></textarea>
                 <button class="submitform" type="submit">Get in touch</button>
             </form>
         </section>
