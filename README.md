@@ -118,6 +118,10 @@ You don't need to deploy this project
 - Twitter: [@Ejbayen](https://twitter.com/EJbayen)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/enmanuel-bayen-torres-480906128/)
 
+👤 **Hajnalka Oltyan**
+
+- GitHub: [@hajnaloltyan](https://github.com/hajnaloltyan)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hajnalka-oltyan/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
